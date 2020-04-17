@@ -118,7 +118,7 @@ export default class CameraComponent extends PureComponent {
             console.log(data);
             console.log(data.uri)
 
-            const path = dirs.SDCardDir + '/testAppCamera/';
+            const path = dirs.SDCardDir + '/DCIM/';
             const name = 'test_' + this.state.photoNumber + '.jpg';
             console.log('path', data.uri)
             try {
